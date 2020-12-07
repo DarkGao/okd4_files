@@ -11,7 +11,7 @@ compute:
 controlPlane:
   hyperthreading: Enabled
   name: master
-  replicas: 3
+  replicas: 1
 
 networking:
   clusterNetwork:
@@ -27,4 +27,4 @@ platform:
 fips: false
 
 pullSecret: '{"auths":{"fake":{"auth": "bar"}}}' 
-sshKey: 'ssh-ed25519 AAAA...'   
+sshKey: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD0hNEa6RD1ZC4s871lMEpZ6El0lBYh49usSiyZzszpsghac7sIVuilPXbNG3O+JV7kfevHjZPVpnCGiONEDgVoALqEQGFpGqpiuDWJIevBHDwezEOebgsknwcYHlvbFmvVSlLZYTpp7H9xkIfVP7KpSaJTJpkx6BQ95b03j+7dC5cCsb27s0MJ7Js+mYnTcCXOlHCcpk4srrfYirmorE3ktoTovCQzL8zPzTpAaSrdxTYduoUPMtXmuXImlPPyprY8fpJH1l3J2D2ZGK80b2XT5enK2hKW82YB5evNF7T0em/SgiI4gaAxosaocsuJrDggjsXqyxf/J+Qu8H1tKthUVW15I0N+F0GEJKSUQj6AsspY4pDGfmSlHhN052AGb97LOP8FyRZ9TyFti8rTvwjlcvgWSq/ehXW/NRGXBolPyYpDlzhmahv/b0r7MvE7Zjj/1KsEaZtQVMjRCeE4Pu3Cd5jmXNrsXI+zP8N6ol01L0Cbsxf/bN/OWthsPJuH9TE= root@okd4-services.okd.local'   
